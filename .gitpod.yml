@@ -11,6 +11,6 @@ ports:
 
 tasks:
   - init: >
-      bundle install
+      cat ~/.dotfile.log
     command: >
       ruby -v
